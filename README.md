@@ -1,25 +1,25 @@
-# koa-cors
+# cors
 
-[![NPM version](https://img.shields.io/npm/v/@zcorky/koa-cors.svg?style=flat)](https://www.npmjs.com/package/@zcorky/koa-cors)
-[![Coverage Status](https://img.shields.io/coveralls/zcorky/koa-cors.svg?style=flat)](https://coveralls.io/r/zcorky/koa-cors)
-[![Dependencies](https://david-dm.org/@zcorky/koa-cors/status.svg)](https://david-dm.org/@zcorky/koa-cors)
-[![Build Status](https://travis-ci.com/zcorky/koa-cors.svg?branch=master)](https://travis-ci.com/zcorky/koa-cors)
-![license](https://img.shields.io/github/license/zcorky/koa-cors.svg)
-[![issues](https://img.shields.io/github/issues/zcorky/koa-cors.svg)](https://github.com/zcorky/koa-cors/issues)
+[![NPM version](https://img.shields.io/npm/v/@koex/cors.svg?style=flat)](https://www.npmjs.com/package/@koex/cors)
+[![Coverage Status](https://img.shields.io/coveralls/koexjs/cors.svg?style=flat)](https://coveralls.io/r/koexjs/cors)
+[![Dependencies](https://img.shields.io/david/koexjs/cors.svg)](https://github.com/koexjs/cors)
+[![Build Status](https://travis-ci.com/koexjs/cors.svg?branch=master)](https://travis-ci.com/koexjs/cors)
+![license](https://img.shields.io/github/license/koexjs/cors.svg)
+[![issues](https://img.shields.io/github/issues/koexjs/cors.svg)](https://github.com/koexjs/cors/issues)
 
-> helmet for Koa, wrapper with helmet.
+> cors for koa extend.
 
 ### Install
 
 ```
-$ npm install @zcorky/koa-cors
+$ npm install @koex/cors
 ```
 
 ### Usage
 
 ```javascript
 // See more in test
-import cors from '@zcorky/koa-cors';
+import cors from '@koex/cors';
 
 import * as Koa from 'koa';
 const app = new Koa();
