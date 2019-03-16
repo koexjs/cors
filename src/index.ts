@@ -52,7 +52,7 @@ export default (options?: Options) => {
   const credentials = !!_options.credentials;
   const keepHeadersOnError = !!_options.keepHeadersOnError
 
-  return async function helmet(ctx: Context, next: () => Promise<void>) {
+  return async function koexCors(ctx: Context, next: () => Promise<void>) {
     const requestOrigin = ctx.get('Origin');
 
     // Always set Vary header
